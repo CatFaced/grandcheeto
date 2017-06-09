@@ -2,7 +2,7 @@
 // This was based on the idea of the single word/phrase replacer from Ingraham who hated multiple options apparently. 
 //I don't hate multiple options that allow for correct syntax display. So here you go
 // June 9 2017 Version 1.1
-//Here's our variable. It's an ok variable, I mean maybe a three? Honestly it's sort of pathetic. It wishes it wasn't such a loser.
+
 var elements = document.getElementsByTagName('*');
 
 for (var i = 0; i < elements.length; i++) {
