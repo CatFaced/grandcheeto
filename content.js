@@ -1,7 +1,8 @@
 // Make Chrome Great Again !!!!!!!!!!!!!!   Extension by CatFace 
-// This was based on the idea of the single word/phrase replacer from Ingraham who hated multiple options apparently. Vicariously compensating for that deficiency -_^.
+// This was based on the idea of the single word/phrase replacer from Ingraham who hated multiple options apparently. 
+//I don't hate multiple options that allow for correct syntax display. So here you go
 // June 9 2017 Version 1.1
-//Here's our variable. It's an ok variable, I mean maybe a three? Honestly it's sort of pathetic It wishes it wasn't such a loser
+//Here's our variable. It's an ok variable, I mean maybe a three? Honestly it's sort of pathetic. It wishes it wasn't such a loser.
 var elements = document.getElementsByTagName('*');
 
 for (var i = 0; i < elements.length; i++) {
@@ -10,7 +11,7 @@ for (var i = 0; i < elements.length; i++) {
     for (var j = 0; j < element.childNodes.length; j++) {
         var node = element.childNodes[j];
 //Time to scan the page and replace our leader with most awesome title, really just a fantastic title. The best. Those other titles are trash.
-// I'll do better regex later and clean this up into one or two vars later or I won't, what of it?
+// I'll do some better regex later and clean this up into one or two vars later or I won't, what of it?
         if (node.nodeType === 3) {
             var text = node.nodeValue;
             var replacedText = text.replace(/president donald trump/gi, 'The Grand Cheeto');
