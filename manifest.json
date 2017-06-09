@@ -1,0 +1,18 @@
+{
+"manifest_version": 2,
+    "name": "Make Chrome Great Again",
+	"short_name": "Make Chrome Great Again",
+    "description": "This extension will help make Chrome great again. Seriously, anyone not using this extension is a loser. A complete scumbag.",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
