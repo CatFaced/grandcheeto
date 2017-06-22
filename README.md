@@ -3,7 +3,7 @@ Make Chrome Great Again by catface
 
 Step First. Download and extract to folder
 
-Step A. Settings > Extensions > Load Unpacked Extensions - Select folder
+Step A. In Chrome go to Settings > Extensions > Load Unpacked Extensions - Select folder
 
 Step 2. Profit
 
